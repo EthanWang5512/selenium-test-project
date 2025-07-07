@@ -1,0 +1,143 @@
+[1751514899.126][INFO]: Starting ChromeDriver 138.0.7204.92 (f079b9bc781e3c2adb1496ea1d72812deb0ddb3d-refs/branch-heads/7204_50@{#8}) on port 63980
+[1751514899.126][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1751514899.157][INFO]: ChromeDriver was started successfully on port 63980
+[1751514899.184][INFO]: [6df88f91c17ae107fbc9919ab6456acb] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--headless" ],
+            "binary": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+         }
+      } ]
+   }
+}
+[1751514899.185][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1751514899.186][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1751514899.186][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1751514899.186][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1751514899.186][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --headless --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/ls/4t4lvrqd2_xbn__1f7nhjjwc0000gn/T/.org.chromium.Chromium.60y5mK data:,
+[1751514900.032][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1751514900.065][INFO]: [6df88f91c17ae107fbc9919ab6456acb] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "138.0.7204.50",
+      "chrome": {
+         "chromedriverVersion": "138.0.7204.92 (f079b9bc781e3c2adb1496ea1d72812deb0ddb3d-refs/branch-heads/7204_50@{#8})",
+         "userDataDir": "/var/folders/ls/4t4lvrqd2_xbn__1f7nhjjwc0000gn/T/.org.chromium.Chromium.60y5mK"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63993"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "6df88f91c17ae107fbc9919ab6456acb"
+}
+[1751514900.122][INFO]: [6df88f91c17ae107fbc9919ab6456acb] COMMAND Navigate {
+   "url": "https://the-internet.herokuapp.com/login"
+}
+[1751514900.123][INFO]: Waiting for pending navigations...
+[1751514900.124][INFO]: Done waiting for pending navigations. Status: ok
+[1751514901.128][INFO]: Waiting for pending navigations...
+[1751514903.010][INFO]: Done waiting for pending navigations. Status: ok
+[1751514903.010][INFO]: [6df88f91c17ae107fbc9919ab6456acb] RESPONSE Navigate
+[1751514903.033][INFO]: [6df88f91c17ae107fbc9919ab6456acb] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#usernamer"
+}
+[1751514903.051][INFO]: Waiting for pending navigations...
+[1751514903.052][INFO]: Done waiting for pending navigations. Status: ok
+[1751514903.067][INFO]: Waiting for pending navigations...
+[1751514903.073][INFO]: Done waiting for pending navigations. Status: ok
+[1751514903.073][INFO]: [6df88f91c17ae107fbc9919ab6456acb] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#usernamer"}
+  (Session info: chrome=138.0.7204.50)
+[1751514903.081][INFO]: [6df88f91c17ae107fbc9919ab6456acb] COMMAND Screenshot {
+}
+[1751514903.093][INFO]: Waiting for pending navigations...
+[1751514903.094][INFO]: Done waiting for pending navigations. Status: ok
+[1751514903.151][INFO]: Waiting for pending navigations...
+[1751514903.152][INFO]: Done waiting for pending navigations. Status: ok
+[1751514903.152][INFO]: [6df88f91c17ae107fbc9919ab6456acb] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAAvQAAAGhCAIAAACBFbeYAAAAAXNSR0IArs4c6QAAIABJREFUeJzsnXlYE9f6x08S9rCFTUDWsIkoW1BcWASCC1VqVeh2q7etBFu11moL92dtbW9vK/e21t0mFau1buAutdbgLu5xQxBEAoR9CWFJgOy/Pw4MQxJiooCo5/Pw8Exmz..."
+[1751514903.186][INFO]: [6df88f91c17ae107fbc9919ab6456acb] COMMAND Quit {
+}
+[1751514903.239][INFO]: [6df88f91c17ae107fbc9919ab6456acb] RESPONSE Quit

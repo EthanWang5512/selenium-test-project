@@ -1,0 +1,190 @@
+2025-07-06 15:32:50.673 +12:00 [INF] 🚀 启动测试
+2025-07-06 15:32:52.334 +12:00 [INF] 打开登录页面
+2025-07-06 15:32:55.235 +12:00 [INF] Entered username
+2025-07-06 15:32:55.443 +12:00 [INF] Entered password
+2025-07-06 15:32:55.534 +12:00 [INF] Submitted login form
+2025-07-06 15:32:56.071 +12:00 [INF] 断言是否登录成功
+2025-07-06 15:32:57.211 +12:00 [INF] 打开登录页面
+2025-07-06 15:32:59.998 +12:00 [INF] Entered username
+2025-07-06 15:33:00.177 +12:00 [INF] Entered password
+2025-07-06 15:33:00.247 +12:00 [INF] Submitted login form
+2025-07-06 15:33:00.792 +12:00 [INF] 断言是否登录成功
+2025-07-06 15:33:00.960 +12:00 [ERR] NoSuchElementException
+NUnit.Framework.AssertionException: Expected flashText "Your username is invalid!
+×" to contain "You logged into a secure area!" because 登录失败，提示信息不正确.
+   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.StringAssertions`1.Contain(String expected, String because, Object[] becauseArgs)
+   at SeleniumLoginTest.LoginTests.TestSuccessfulLogin(LoginTestData data) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 203
+2025-07-06 15:33:04.490 +12:00 [INF] 🧹 Test finished
+2025-07-06 16:30:37.036 +12:00 [INF] 🚀 启动测试
+2025-07-06 16:30:37.089 +12:00 [INF] 打开登录页面
+2025-07-06 16:30:39.973 +12:00 [INF] Entered username
+2025-07-06 16:30:40.382 +12:00 [INF] Entered password
+2025-07-06 16:30:40.482 +12:00 [INF] Submitted login form
+2025-07-06 16:30:41.056 +12:00 [INF] 断言是否登录成功
+2025-07-06 16:30:41.076 +12:00 [INF] 打开登录页面
+2025-07-06 16:30:41.312 +12:00 [INF] Entered username
+2025-07-06 16:30:41.419 +12:00 [INF] Entered password
+2025-07-06 16:30:41.579 +12:00 [INF] Submitted login form
+2025-07-06 16:30:55.557 +12:00 [INF] 🧹 Test finished
+2025-07-06 16:35:01.981 +12:00 [INF] 🚀 启动测试
+2025-07-06 16:35:02.020 +12:00 [INF] 打开登录页面
+2025-07-06 16:35:04.904 +12:00 [INF] Entered username
+2025-07-06 16:35:05.092 +12:00 [INF] Entered password
+2025-07-06 16:35:05.266 +12:00 [INF] Submitted login form
+2025-07-06 16:35:05.802 +12:00 [INF] 断言是否登录成功
+2025-07-06 16:35:05.820 +12:00 [INF] 打开登录页面
+2025-07-06 16:35:06.055 +12:00 [INF] Entered username
+2025-07-06 16:35:06.123 +12:00 [INF] Entered password
+2025-07-06 16:35:06.189 +12:00 [INF] Submitted login form
+2025-07-06 16:35:19.906 +12:00 [INF] 🧹 Test finished
+2025-07-06 16:42:13.697 +12:00 [INF] 🚀 启动测试
+2025-07-06 16:42:13.734 +12:00 [INF] 打开登录页面
+2025-07-06 16:42:16.632 +12:00 [INF] Entered username
+2025-07-06 16:42:16.825 +12:00 [INF] Entered password
+2025-07-06 16:42:17.005 +12:00 [INF] Submitted login form
+2025-07-06 16:42:17.533 +12:00 [INF] 断言是否登录成功
+2025-07-06 16:42:17.551 +12:00 [INF] 打开登录页面
+2025-07-06 16:42:17.783 +12:00 [INF] Entered username
+2025-07-06 16:42:17.848 +12:00 [INF] Entered password
+2025-07-06 16:42:17.912 +12:00 [INF] Submitted login form
+2025-07-06 16:42:31.637 +12:00 [INF] 🧹 Test finished
+2025-07-06 16:43:25.683 +12:00 [INF] 🚀 启动测试
+2025-07-06 16:43:25.731 +12:00 [INF] 打开登录页面
+2025-07-06 16:43:28.654 +12:00 [INF] Entered username
+2025-07-06 16:43:28.696 +12:00 [INF] 打开登录页面
+2025-07-06 16:43:28.938 +12:00 [INF] Entered username
+2025-07-06 16:43:32.289 +12:00 [INF] 🧹 Test finished
+2025-07-06 16:46:33.419 +12:00 [INF] 🚀 启动测试
+2025-07-06 16:46:33.456 +12:00 [INF] 打开登录页面
+2025-07-06 16:46:36.364 +12:00 [INF] Entered username
+2025-07-06 16:46:36.425 +12:00 [INF] 打开登录页面
+2025-07-06 16:46:36.683 +12:00 [INF] Entered username
+2025-07-06 16:46:40.194 +12:00 [INF] 🧹 Test finished
+2025-07-06 16:49:55.990 +12:00 [INF] 🚀 启动测试
+2025-07-06 16:49:56.028 +12:00 [INF] 打开登录页面
+2025-07-06 16:49:58.916 +12:00 [INF] Entered username
+2025-07-06 16:49:59.093 +12:00 [INF] /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Reports/error.png
+2025-07-06 16:49:59.095 +12:00 [ERR] ElementNotFound
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#usernamer"}
+  (Session info: chrome=138.0.7204.50); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumLoginTest.Pages.LoginPage.get_UsernameInput() in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Pages/LoginPage.cs:line 22
+   at SeleniumLoginTest.Pages.LoginPage.EnterUsername(String username) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Pages/LoginPage.cs:line 30
+   at SeleniumLoginTest.LoginTests.TestSuccessfulLogin(LoginTestData data) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 168
+2025-07-06 16:49:59.122 +12:00 [INF] 打开登录页面
+2025-07-06 16:49:59.366 +12:00 [INF] Entered username
+2025-07-06 16:49:59.504 +12:00 [INF] /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Reports/error.png
+2025-07-06 16:49:59.505 +12:00 [ERR] ElementNotFound
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#usernamer"}
+  (Session info: chrome=138.0.7204.50); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumLoginTest.Pages.LoginPage.get_UsernameInput() in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Pages/LoginPage.cs:line 22
+   at SeleniumLoginTest.Pages.LoginPage.EnterUsername(String username) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Pages/LoginPage.cs:line 30
+   at SeleniumLoginTest.LoginTests.TestSuccessfulLogin(LoginTestData data) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 168
+2025-07-06 16:50:03.133 +12:00 [INF] 🧹 Test finished
+2025-07-06 16:51:22.228 +12:00 [INF] 🚀 启动测试
+2025-07-06 16:51:22.277 +12:00 [INF] 打开登录页面
+2025-07-06 16:51:25.180 +12:00 [INF] Entered username
+2025-07-06 16:51:25.390 +12:00 [INF] Entered password
+2025-07-06 16:51:25.559 +12:00 [INF] Submitted login form
+2025-07-06 16:51:26.100 +12:00 [INF] 断言是否登录成功
+2025-07-06 16:51:26.117 +12:00 [INF] 打开登录页面
+2025-07-06 16:51:26.352 +12:00 [INF] Entered username
+2025-07-06 16:51:26.420 +12:00 [INF] Entered password
+2025-07-06 16:51:26.487 +12:00 [INF] Submitted login form
+2025-07-06 16:51:40.314 +12:00 [INF] 🧹 Test finished
+2025-07-06 17:02:48.636 +12:00 [INF] 🚀 启动测试
+2025-07-06 17:02:48.674 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-06 17:02:51.713 +12:00 [INF] Entered username
+2025-07-06 17:02:51.921 +12:00 [INF] Entered password
+2025-07-06 17:02:52.095 +12:00 [INF] Submitted login form
+2025-07-06 17:02:52.666 +12:00 [INF] 判断是否登录成功
+2025-07-06 17:02:52.681 +12:00 [INF] Login success message verified.
+2025-07-06 17:02:52.685 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-06 17:02:52.940 +12:00 [INF] Entered username
+2025-07-06 17:02:53.007 +12:00 [INF] Entered password
+2025-07-06 17:02:53.094 +12:00 [INF] Submitted login form
+2025-07-06 17:03:06.694 +12:00 [INF] 🧹 Test finished
+2025-07-06 17:12:56.080 +12:00 [INF] 🚀 启动测试
+2025-07-06 17:12:56.128 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-06 17:12:59.015 +12:00 [INF] Entered username
+2025-07-06 17:12:59.204 +12:00 [INF] Entered password
+2025-07-06 17:12:59.377 +12:00 [INF] Submitted login form
+2025-07-06 17:12:59.912 +12:00 [INF] 判断是否登录成功
+2025-07-06 17:12:59.927 +12:00 [INF] Login success message verified.
+2025-07-06 17:12:59.931 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-06 17:13:00.165 +12:00 [INF] Entered username
+2025-07-06 17:13:00.232 +12:00 [INF] Entered password
+2025-07-06 17:13:00.303 +12:00 [INF] Submitted login form
+2025-07-06 17:13:13.865 +12:00 [INF] 🧹 Test finished
+2025-07-06 17:15:24.414 +12:00 [INF] 🚀 启动测试
+2025-07-06 17:15:24.460 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-06 17:15:27.339 +12:00 [INF] Entered username
+2025-07-06 17:15:27.529 +12:00 [INF] Entered password
+2025-07-06 17:15:27.704 +12:00 [INF] Submitted login form
+2025-07-06 17:15:28.267 +12:00 [INF] 判断是否登录成功
+2025-07-06 17:15:28.281 +12:00 [INF] Login success message verified.
+2025-07-06 17:15:28.285 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-06 17:15:28.520 +12:00 [INF] Entered username
+2025-07-06 17:15:28.588 +12:00 [INF] Entered password
+2025-07-06 17:15:28.654 +12:00 [INF] Submitted login form
+2025-07-06 17:15:42.143 +12:00 [INF] 🧹 Test finished
+2025-07-06 17:20:05.813 +12:00 [INF] 🚀 启动测试
+2025-07-06 17:20:05.863 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-06 17:20:08.748 +12:00 [INF] Entered username
+2025-07-06 17:20:08.915 +12:00 [INF] Entered password
+2025-07-06 17:20:09.069 +12:00 [INF] Submitted login form
+2025-07-06 17:20:09.117 +12:00 [INF] 判断是否登录成功
+2025-07-06 17:20:10.124 +12:00 [INF] Login success message verified.
+2025-07-06 17:20:10.128 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-06 17:20:10.372 +12:00 [INF] Entered username
+2025-07-06 17:20:10.465 +12:00 [INF] Entered password
+2025-07-06 17:20:10.555 +12:00 [INF] Submitted login form
+2025-07-06 17:20:10.623 +12:00 [INF] 判断是否登录成功
+2025-07-06 17:20:20.805 +12:00 [WRN] ❌ 登录失败，提示信息：- 
+2025-07-06 17:20:24.270 +12:00 [INF] 🧹 Test finished
+2025-07-06 17:21:29.528 +12:00 [INF] 🚀 启动测试
+2025-07-06 17:21:29.571 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-06 17:21:32.475 +12:00 [INF] Entered username
+2025-07-06 17:21:32.659 +12:00 [INF] Entered password
+2025-07-06 17:21:32.825 +12:00 [INF] Submitted login form
+2025-07-06 17:21:33.328 +12:00 [INF] 判断是否登录成功
+2025-07-06 17:21:33.371 +12:00 [INF] Login success message verified.
+2025-07-06 17:21:33.377 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-06 17:21:33.612 +12:00 [INF] Entered username
+2025-07-06 17:21:33.684 +12:00 [INF] Entered password
+2025-07-06 17:21:33.770 +12:00 [INF] Submitted login form
+2025-07-06 17:21:33.825 +12:00 [INF] 判断是否登录成功
+2025-07-06 17:21:43.996 +12:00 [WRN] ❌ 登录失败，提示信息：- 
+2025-07-06 17:21:47.202 +12:00 [INF] 🧹 Test finished
+2025-07-06 17:22:17.207 +12:00 [INF] 🚀 启动测试
+2025-07-06 17:22:17.249 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-06 17:22:19.966 +12:00 [INF] Entered username
+2025-07-06 17:22:20.179 +12:00 [INF] Entered password
+2025-07-06 17:22:20.347 +12:00 [INF] Submitted login form
+2025-07-06 17:22:20.397 +12:00 [INF] 判断是否登录成功
+2025-07-06 17:22:20.883 +12:00 [INF] Login success message verified.
+2025-07-06 17:22:20.887 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-06 17:22:21.123 +12:00 [INF] Entered username
+2025-07-06 17:22:21.187 +12:00 [INF] Entered password
+2025-07-06 17:22:21.251 +12:00 [INF] Submitted login form
+2025-07-06 17:22:21.315 +12:00 [INF] 判断是否登录成功
+2025-07-06 17:22:34.811 +12:00 [INF] 🧹 Test finished

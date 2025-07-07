@@ -1,0 +1,274 @@
+2025-07-07 11:40:08.361 +12:00 [INF] 🚀 启动测试
+2025-07-07 11:40:08.401 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-07 11:40:11.111 +12:00 [INF] Entered username
+2025-07-07 11:40:11.312 +12:00 [INF] Entered password
+2025-07-07 11:40:11.493 +12:00 [INF] Submitted login form
+2025-07-07 11:40:12.012 +12:00 [INF] 判断是否登录成功
+2025-07-07 11:40:12.056 +12:00 [INF] Login success message verified.
+2025-07-07 11:40:12.060 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-07 11:40:12.296 +12:00 [INF] Entered username
+2025-07-07 11:40:12.363 +12:00 [INF] Entered password
+2025-07-07 11:40:12.429 +12:00 [INF] Submitted login form
+2025-07-07 11:40:12.480 +12:00 [INF] 判断是否登录成功
+2025-07-07 11:40:17.070 +12:00 [INF] 🧹 Test finished
+2025-07-07 11:48:48.542 +12:00 [INF] 🚀 启动测试
+2025-07-07 11:48:48.626 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-07 11:48:51.547 +12:00 [INF] Entered username
+2025-07-07 11:48:51.749 +12:00 [INF] Entered password
+2025-07-07 11:48:51.947 +12:00 [INF] Submitted login form
+2025-07-07 11:48:52.446 +12:00 [INF] Check username and password
+2025-07-07 11:48:52.481 +12:00 [INF] Login success message verified.
+2025-07-07 11:48:52.485 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-07 11:48:52.719 +12:00 [INF] Entered username
+2025-07-07 11:48:52.784 +12:00 [INF] Entered password
+2025-07-07 11:48:52.846 +12:00 [INF] Submitted login form
+2025-07-07 11:48:52.909 +12:00 [INF] Check username and password
+2025-07-07 11:49:06.492 +12:00 [INF] 🧹 Test finished
+2025-07-07 11:52:15.501 +12:00 [INF] 🚀 启动测试
+2025-07-07 11:52:15.549 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-07 11:52:18.430 +12:00 [INF] Entered username
+2025-07-07 11:52:18.621 +12:00 [INF] Entered password
+2025-07-07 11:52:18.789 +12:00 [INF] Submitted login form
+2025-07-07 11:52:19.293 +12:00 [INF] Check username and password
+2025-07-07 11:52:19.334 +12:00 [INF] Login success message verified.
+2025-07-07 11:52:19.337 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-07 11:52:19.571 +12:00 [INF] Entered username
+2025-07-07 11:52:19.638 +12:00 [INF] Entered password
+2025-07-07 11:52:19.721 +12:00 [INF] Submitted login form
+2025-07-07 11:52:19.762 +12:00 [INF] Check username and password
+2025-07-07 11:52:33.422 +12:00 [INF] 🧹 Test finished
+2025-07-07 11:54:57.880 +12:00 [INF] 🚀 启动测试
+2025-07-07 11:54:57.929 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-07 11:55:00.818 +12:00 [INF] Entered username
+2025-07-07 11:55:01.035 +12:00 [INF] Entered password
+2025-07-07 11:55:01.211 +12:00 [INF] Submitted login form
+2025-07-07 11:55:01.719 +12:00 [INF] Check username and password
+2025-07-07 11:55:01.760 +12:00 [INF] Login success message verified.
+2025-07-07 11:55:01.764 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-07 11:55:02.000 +12:00 [INF] Entered username
+2025-07-07 11:55:02.067 +12:00 [INF] Entered password
+2025-07-07 11:55:02.151 +12:00 [INF] Submitted login form
+2025-07-07 11:55:02.192 +12:00 [INF] Check username and password
+2025-07-07 11:55:16.371 +12:00 [INF] 🧹 Test finished
+2025-07-07 11:56:29.484 +12:00 [INF] 🚀 启动测试
+2025-07-07 11:56:29.536 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-07 11:56:32.446 +12:00 [INF] Entered username
+2025-07-07 11:56:32.637 +12:00 [INF] Entered password
+2025-07-07 11:56:32.814 +12:00 [INF] Submitted login form
+2025-07-07 11:56:33.326 +12:00 [INF] Check username and password
+2025-07-07 11:56:33.356 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-07 11:56:33.373 +12:00 [INF] Login success message verified.
+2025-07-07 11:56:33.377 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-07 11:56:33.611 +12:00 [INF] Entered username
+2025-07-07 11:56:33.683 +12:00 [INF] Entered password
+2025-07-07 11:56:33.774 +12:00 [INF] Submitted login form
+2025-07-07 11:56:33.814 +12:00 [INF] Check username and password
+2025-07-07 11:56:43.994 +12:00 [ERR] ❌ 等待 #flash 元素超时，页面可能未加载成功：Timed out after 10 seconds
+2025-07-07 11:56:47.503 +12:00 [INF] 🧹 Test finished
+2025-07-07 11:57:27.173 +12:00 [INF] 🚀 启动测试
+2025-07-07 11:57:27.217 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-07 11:57:29.914 +12:00 [INF] Entered username
+2025-07-07 11:57:30.115 +12:00 [INF] Entered password
+2025-07-07 11:57:30.298 +12:00 [INF] Submitted login form
+2025-07-07 11:57:30.356 +12:00 [INF] Check username and password
+2025-07-07 11:57:30.837 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-07 11:57:30.856 +12:00 [INF] Login success message verified.
+2025-07-07 11:57:30.860 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-07 11:57:31.099 +12:00 [INF] Entered username
+2025-07-07 11:57:31.166 +12:00 [INF] Entered password
+2025-07-07 11:57:31.252 +12:00 [INF] Submitted login form
+2025-07-07 11:57:31.297 +12:00 [INF] Check username and password
+2025-07-07 11:57:41.474 +12:00 [ERR] ❌ 等待 #flash 元素超时，页面可能未加载成功：Timed out after 10 seconds
+2025-07-07 11:57:44.822 +12:00 [INF] 🧹 Test finished
+2025-07-07 11:59:41.138 +12:00 [INF] 🚀 启动测试
+2025-07-07 11:59:41.186 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-07 11:59:44.070 +12:00 [INF] Entered username
+2025-07-07 11:59:44.280 +12:00 [INF] Entered password
+2025-07-07 11:59:44.458 +12:00 [INF] Submitted login form
+2025-07-07 11:59:44.509 +12:00 [INF] Check username and password
+2025-07-07 11:59:44.997 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-07 11:59:45.013 +12:00 [INF] Login success message verified.
+2025-07-07 11:59:45.017 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-07 11:59:45.264 +12:00 [INF] Entered username
+2025-07-07 11:59:45.332 +12:00 [INF] Entered password
+2025-07-07 11:59:45.423 +12:00 [INF] Submitted login form
+2025-07-07 11:59:45.466 +12:00 [INF] Check username and password
+2025-07-07 11:59:55.635 +12:00 [ERR] ❌ 等待 #flash 元素超时，页面可能未加载成功：Timed out after 10 seconds
+2025-07-07 11:59:55.759 +12:00 [ERR] ElementNotFound
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 10 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#flash"}
+  (Session info: chrome=138.0.7204.50); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumLoginTest.LoginTests.<>c.<TestSuccessfulLogin>b__7_0(IWebDriver d) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 209
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at SeleniumLoginTest.LoginTests.TestSuccessfulLogin(LoginTestData data) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 209
+2025-07-07 11:59:59.319 +12:00 [INF] 🧹 Test finished
+2025-07-07 12:04:43.335 +12:00 [INF] 🚀 启动测试
+2025-07-07 12:04:43.384 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-07 12:04:46.262 +12:00 [INF] Entered username
+2025-07-07 12:04:46.458 +12:00 [INF] Entered password
+2025-07-07 12:04:46.644 +12:00 [INF] True
+2025-07-07 12:04:46.652 +12:00 [INF] True
+2025-07-07 12:04:46.652 +12:00 [INF] Submitted login form
+2025-07-07 12:04:46.716 +12:00 [INF] Check username and password
+2025-07-07 12:04:47.195 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-07 12:04:47.212 +12:00 [INF] Login success message verified.
+2025-07-07 12:04:47.215 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-07 12:04:47.452 +12:00 [INF] Entered username
+2025-07-07 12:04:47.516 +12:00 [INF] Entered password
+2025-07-07 12:04:47.618 +12:00 [INF] True
+2025-07-07 12:04:47.636 +12:00 [INF] True
+2025-07-07 12:04:47.636 +12:00 [INF] Submitted login form
+2025-07-07 12:04:47.675 +12:00 [INF] Check username and password
+2025-07-07 12:04:57.841 +12:00 [ERR] ❌ 等待 #flash 元素超时，页面可能未加载成功：Timed out after 10 seconds
+2025-07-07 12:04:57.952 +12:00 [ERR] ElementNotFound
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 10 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#flash"}
+  (Session info: chrome=138.0.7204.50); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumLoginTest.LoginTests.<>c.<TestSuccessfulLogin>b__7_0(IWebDriver d) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 215
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at SeleniumLoginTest.LoginTests.TestSuccessfulLogin(LoginTestData data) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 215
+2025-07-07 12:05:01.730 +12:00 [INF] 🧹 Test finished
+2025-07-07 12:10:45.352 +12:00 [INF] 🚀 启动测试
+2025-07-07 12:10:45.410 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-07 12:10:48.431 +12:00 [INF] Entered username
+2025-07-07 12:10:48.739 +12:00 [INF] Entered password
+2025-07-07 12:10:48.842 +12:00 [INF] Submitted login form
+2025-07-07 12:10:49.368 +12:00 [INF] Check username and password
+2025-07-07 12:10:49.407 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-07 12:10:49.426 +12:00 [INF] Login success message verified.
+2025-07-07 12:10:49.430 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-07 12:10:49.670 +12:00 [INF] Entered username
+2025-07-07 12:10:49.846 +12:00 [INF] Entered password
+2025-07-07 12:10:49.931 +12:00 [INF] Submitted login form
+2025-07-07 12:10:50.008 +12:00 [INF] Check username and password
+2025-07-07 12:11:00.183 +12:00 [ERR] ❌ 等待 #flash 元素超时，页面可能未加载成功：Timed out after 10 seconds
+2025-07-07 12:11:00.400 +12:00 [ERR] ElementNotFound
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 10 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#flash"}
+  (Session info: chrome=138.0.7204.50); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumLoginTest.LoginTests.<>c.<TestSuccessfulLogin>b__7_0(IWebDriver d) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 209
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at SeleniumLoginTest.LoginTests.TestSuccessfulLogin(LoginTestData data) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 209
+2025-07-07 12:11:05.195 +12:00 [INF] 🧹 Test finished
+2025-07-07 12:11:26.148 +12:00 [INF] 🚀 启动测试
+2025-07-07 12:11:26.196 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-07 12:11:29.040 +12:00 [INF] Entered username
+2025-07-07 12:11:29.342 +12:00 [INF] Entered password
+2025-07-07 12:11:29.459 +12:00 [INF] Submitted login form
+2025-07-07 12:11:29.997 +12:00 [INF] Check username and password
+2025-07-07 12:11:30.034 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-07 12:11:30.050 +12:00 [INF] Login success message verified.
+2025-07-07 12:11:30.054 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-07 12:11:30.294 +12:00 [INF] Entered username
+2025-07-07 12:11:30.399 +12:00 [INF] Entered password
+2025-07-07 12:11:30.558 +12:00 [INF] Submitted login form
+2025-07-07 12:11:30.621 +12:00 [INF] Check username and password
+2025-07-07 12:11:40.765 +12:00 [ERR] ❌ 等待 #flash 元素超时，页面可能未加载成功：Timed out after 10 seconds
+2025-07-07 12:11:45.072 +12:00 [INF] 🧹 Test finished
+2025-07-07 12:13:05.449 +12:00 [INF] 🚀 启动测试
+2025-07-07 12:13:05.492 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-07 12:13:08.395 +12:00 [INF] Entered username
+2025-07-07 12:13:08.623 +12:00 [INF] Entered password
+2025-07-07 12:13:08.811 +12:00 [INF] Submitted login form
+2025-07-07 12:13:09.315 +12:00 [INF] Check username and password
+2025-07-07 12:13:09.344 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-07 12:13:09.360 +12:00 [INF] Login success message verified.
+2025-07-07 12:13:09.364 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-07 12:13:09.599 +12:00 [INF] Entered username
+2025-07-07 12:13:09.667 +12:00 [INF] Entered password
+2025-07-07 12:13:09.755 +12:00 [INF] Submitted login form
+2025-07-07 12:13:09.803 +12:00 [INF] Check username and password
+2025-07-07 12:13:19.975 +12:00 [ERR] ❌ 等待 #flash 元素超时，页面可能未加载成功：Timed out after 10 seconds
+2025-07-07 12:13:20.086 +12:00 [ERR] ElementNotFound
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 10 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#flash"}
+  (Session info: chrome=138.0.7204.50); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumLoginTest.LoginTests.<>c.<TestSuccessfulLogin>b__7_0(IWebDriver d) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 209
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at SeleniumLoginTest.LoginTests.TestSuccessfulLogin(LoginTestData data) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 209
+2025-07-07 12:13:23.771 +12:00 [INF] 🧹 Test finished
+2025-07-07 12:14:22.980 +12:00 [INF] 🚀 启动测试
+2025-07-07 12:14:23.027 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-07 12:14:26.066 +12:00 [INF] Entered username
+2025-07-07 12:14:26.353 +12:00 [INF] Entered password
+2025-07-07 12:14:26.438 +12:00 [INF] Submitted login form
+2025-07-07 12:14:26.521 +12:00 [INF] Check username and password
+2025-07-07 12:14:27.022 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-07 12:14:27.039 +12:00 [INF] Login success message verified.
+2025-07-07 12:14:27.043 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-07 12:14:27.284 +12:00 [INF] Entered username
+2025-07-07 12:14:27.459 +12:00 [INF] Entered password
+2025-07-07 12:14:27.552 +12:00 [INF] Submitted login form
+2025-07-07 12:14:27.626 +12:00 [INF] Check username and password
+2025-07-07 12:14:37.773 +12:00 [ERR] ❌ 等待 #flash 元素超时，页面可能未加载成功：Timed out after 10 seconds
+2025-07-07 12:14:41.245 +12:00 [INF] 🧹 Test finished
+2025-07-07 12:15:57.411 +12:00 [INF] 🚀 启动测试
+2025-07-07 12:15:57.472 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-07 12:16:00.475 +12:00 [INF] Entered username
+2025-07-07 12:16:00.754 +12:00 [INF] Entered password
+2025-07-07 12:16:00.855 +12:00 [INF] Submitted login form
+2025-07-07 12:16:01.371 +12:00 [INF] Check username and password
+2025-07-07 12:16:01.402 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-07 12:16:01.418 +12:00 [INF] Login success message verified.
+2025-07-07 12:16:01.422 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-07 12:16:01.666 +12:00 [INF] Entered username
+2025-07-07 12:16:01.773 +12:00 [INF] Entered password
+2025-07-07 12:16:01.924 +12:00 [INF] Submitted login form
+2025-07-07 12:16:02.419 +12:00 [INF] Check username and password
+2025-07-07 12:16:02.442 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-07 12:16:02.442 +12:00 [INF] 登录失败提示验证通过
+2025-07-07 12:16:05.958 +12:00 [INF] 🧹 Test finished
