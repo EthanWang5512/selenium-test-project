@@ -1,0 +1,30 @@
+name: Selenium NUnit CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:  # 手动触发
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ✅ 检出项目代码
+        uses: actions/checkout@v4
+
+      - name: 🧰 安装 .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x' # 可改成你项目用的版本
+
+      - name: 📦 还原依赖
+        run: dotnet restore
+
+      - name: 🛠️ 编译项目
+        run: dotnet build --no-restore --configuration Release
+
+      - name: 🧪 运行测试
+        run: dotnet test --no-build --verbosity normal
