@@ -1,12 +1,6 @@
 
 using OpenQA.Selenium;
 
-using OpenQA.Selenium.Remote;
-// using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Firefox;
-using OpenQA.Selenium.Edge;
-
-using OpenQA.Selenium.Support.UI;
 using AventStack.ExtentReports;
 using AventStack.ExtentReports.Reporter;
 using Serilog;
@@ -15,33 +9,16 @@ using Helpers;
 using SeleniumLoginTest.Pages;
 using SeleniumLoginTest.Data;
 using SeleniumLoginTest.CSVData;
-using SeleniumLoginTest.Services;
 using Microsoft.Extensions.DependencyInjection;
 
 
-
-
-using NUnit.Framework;
-// using OpenQA.Selenium;
-using OpenQA.Selenium.Remote;
-using System;
-
-
-namespace SeleniumLoginTest
+namespace SeleniumLoginTest.Tests
 {
-  // NUnit框架下要给类加 [TestFixture] Attribute
-  
-  // [TestFixture("chrome")]
-  // [TestFixture("firefox")]
-  // [TestFixture("edge")]
-  // [Parallelizable(ParallelScope.All)] // 允许测试用例并行运行（需要NUnit3以上）
+ 
   [TestFixture]
   public class LoginTests
   {
-    // private string browser;
-    
-    // 声明全局变量
-    // IWebDriver? driver;
+  
     ExtentSparkReporter spark;
     String reportDir;
     
@@ -53,11 +30,12 @@ namespace SeleniumLoginTest
     [OneTimeSetUp]
     public void InitReport()
     {
+      
       serviceProvider = Program.Init();
       driverService = serviceProvider.GetService<SeleniumLoginTest.Services.DriverService>();
       loginPage = serviceProvider.GetService<LoginPage>();
       
-      // TODO 这里要改进 兼容CI/CD
+      // // TODO 这里要改进 兼容CI/CD
       extent = serviceProvider.GetService<ExtentReports>();
       
       string projectDir = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!
@@ -67,87 +45,13 @@ namespace SeleniumLoginTest
       
       string reportPath = Path.Combine(reportDir, "Spark.html");
       
-      spark = new ExtentSparkReporter(reportPath);
-      extent.AttachReporter(spark);
       
-      // 配置Serilog
-      Logger.Init();
-      Log.Information("🚀 启动测试");
+      spark = new ExtentSparkReporter(reportPath);
+      extent?.AttachReporter(spark);
+      
     }
     
-    // 第一步 SetUp
-    // [SetUp]
-    // public void Setup()
-    // {
-    //   // 指定用Chrome浏览器
-    //   var service = ChromeDriverService.CreateDefaultService();
-    //   var options = new ChromeOptions();
-    //   options.AddArgument("--headless"); // 如果你希望看到浏览器过程可以注释掉这一行
-    //   
-    //   //  启用日志   这个是系统级的日志 很复杂 可以改用extentreport第三方
-    //   // service.LogPath = "chromedriver.log"; 
-    //   
-    //   driver = new ChromeDriver(service, options);
-    //   driver.Manage().Window.Maximize(); // 最大化窗口 防止元素丢失
     
-      // 用指定浏览器进行测试  需要开启Selenium Grid
-      // var gridUrl = new Uri("http://192.168.68.50:4444"); // Selenium Grid Hub 地址
-      // // var options = new ChromeOptions();
-      // var options = new FirefoxOptions();
-      // options.AddArgument("--headless"); // 如果你希望无头运行
-      //
-      // // RemoteWebDriver 连接到 Selenium Grid
-      // driver = new RemoteWebDriver(gridUrl, options.ToCapabilities(), TimeSpan.FromSeconds(60));
-
-      
-      // 在Selenium Grid里同时进行多浏览器测试
-      // var gridUrl = new Uri("http://192.168.68.50:4444");
-      // DriverOptions options;
-      //
-      // switch (browser.ToLower())
-      // {
-      //   case "chrome":
-      //     var chromeOptions = new ChromeOptions();
-      //     chromeOptions.AddArgument("--headless");
-      //     options = chromeOptions;
-      //     break;
-      //
-      //   case "firefox":
-      //     var firefoxOptions = new FirefoxOptions();
-      //     firefoxOptions.AddArgument("--headless");
-      //     options = firefoxOptions;
-      //     break;
-      //
-      //   case "edge":
-      //     var edgeOptions = new EdgeOptions();
-      //     edgeOptions.AddArgument("--headless");
-      //     options = edgeOptions;
-      //     break;
-      //
-      //   default:
-      //     throw new ArgumentException("Unsupported browser");
-      // }
-      //
-      // driver = new RemoteWebDriver(gridUrl, options);
-
-    // }
-    
-
-    // 第二步 Test 对前端进行互动测试
-    // [Test]
-    // 数据驱动 Data-Driven Testing, DDT
-    // Test logic and data are decoupled
-    
-    // 第一种方法 直接写test data
-    // [Test]
-    // [TestCase("tomsmith", "SuperSecretPassword!")]
-    // [TestCase("admin", "123456!")]
-    // [TestCase("user", "123456!")]
-    
-    // 第二种方法 封装起来 做一个数据类
-    // [Test, TestCaseSource(typeof(LoginDataProvider), nameof(LoginDataProvider.LoginTestData))]
-    
-    // 第三种方法  提取csv文件  在第二种方法的基础上提取外部文件
     [Test, TestCaseSource(typeof(LoginCSVDataProvider), nameof(LoginCSVDataProvider.GetLoginDataFromCsv))]
     public void TestSuccessfulLogin(LoginTestData data)
     {
@@ -156,7 +60,7 @@ namespace SeleniumLoginTest
       var success = data.success;
       
       // TODO:  这里可以decouple 套用其他的report工具
-      var test = extent.CreateTest($"TestSuccessfulLogin - {username}").Info("Starting login");
+      var test = extent?.CreateTest($"TestSuccessfulLogin - {username}").Info("Starting login");
 
       Log.Information($"TestSuccessfulLogin - {username}");
       driverService?.Open("https://the-internet.herokuapp.com/login");
@@ -166,39 +70,24 @@ namespace SeleniumLoginTest
       try
       {
         Log.Information("Entered username");
-        loginPage.EnterUsername(username);
-        test.Log(Status.Pass, "Entered username");
+        loginPage?.EnterUsername(username);
+        test?.Log(Status.Pass, "Entered username");
         
         
         Log.Information("Entered password");
-        loginPage.EnterPassword(password);
-        test.Log(Status.Pass, "Entered password");
+        loginPage?.EnterPassword(password);
+        test?.Log(Status.Pass, "Entered password");
         
         Log.Information("Submitted login form");
-        loginPage.ClickLogin();
-        test.Log(Status.Pass, "Submitted login form");
+        loginPage?.ClickLogin();
+        test?.Log(Status.Pass, "Submitted login form");
         
       }
       catch (NoSuchElementException ex)
       {
         ExceptionHandler.HandleElementNotFound(driverService.GetDriver(), test, ErrorReason.ElementNotFound, reportDir, ex);
       }
-
-      // 等待响应
       
-      // 等待2秒，让页面有时间跳转或加载
-      // System.Threading.Thread.Sleep(2000);   // 要被WebDriverWait替代
-      // string flashText = driver.FindElement(By.Id("flash")).Text;
-
-      // WebDriverWait 可以不用死等  用箭头函数 不用写等待条件 直接获取元素内容
-      // var wait = new WebDriverWait(driverService.GetDriver(), TimeSpan.FromSeconds(10));
-      // var flash = wait.Until(d => d.FindElement(By.Id("flash")));
-      
-     
-
-      // 断言声明
-      // 1.单断言   如果有失败，测试会立即停止，后续断言不执行
-      // FluentAssertions
 
       Log.Information("Check username and password");
       string flashText = "";
@@ -247,39 +136,9 @@ namespace SeleniumLoginTest
       
       
       
-      
-      
-      
-      
-      // 2.多断言   如果前面的断言有失败，测试会自动进行
-      //   FluentAssertion不能做 只能用Assert
-      // string yep = "yep";
-      // string greeting = "Hello, World";
-      // Assert.Multiple(() =>
-      // {
-      //   Assert.IsTrue(2 > 1);
-      //   // Assert.IsFalse(2 > 1);
-      //   Assert.AreEqual("yep", yep);
-      //   Assert.AreNotEqual("nope", yep);
-      //   Assert.IsNull(null);
-      //   // Assert.IsNotNull(null);
-      //
-      //   // 上面的都可以用Assert.That(value, constraints) 来代替
-      //   Assert.That(greeting, Does.Contain("World"));
-      //   Assert.That(greeting, Is.Not.Null.And.Not.Empty);
-      //
-      // });
-      
-      
     }
 
-    // 最后一步 收尾释放资源
-    // [TearDown]
-    // public void TearDown()
-    // {
-    //   driver?.Quit();
-    //   driver?.Dispose();
-    // }
+   
 
     [OneTimeTearDown]
     public void CloseReport()

@@ -5,16 +5,24 @@ using SeleniumLoginTest.Pages;
 using SeleniumLoginTest.Services;
 using AventStack.ExtentReports;
 using AventStack.ExtentReports.Reporter;
+using Serilog;
 
 public class Program
 {
     public static IServiceProvider Init()
     {
+        // 初始化 Serilog 日志系统
+        Log.Logger = new LoggerConfiguration()
+            .MinimumLevel.Debug()
+            .WriteTo.Console() // ✅ 输出到控制台
+            .WriteTo.File("Logs/log.txt", rollingInterval: RollingInterval.Day)
+            .CreateLogger();
+        
         var services = new ServiceCollection();
 
         // 注册 WebDriver 单例
         var chromeOptions = new ChromeOptions();
-        // chromeOptions.AddArgument("--headless");       // 无界面
+        chromeOptions.AddArgument("--headless");       // 无界面
         chromeOptions.AddArgument("--disable-gpu");    // 某些系统下需要
         chromeOptions.AddArgument("--window-size=1920,1080"); // 避免某些元素不可见
         chromeOptions.AddArgument("--no-sandbox");     // 对某些Linux环境有用

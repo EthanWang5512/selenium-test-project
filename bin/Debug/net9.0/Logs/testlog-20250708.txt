@@ -1,0 +1,120 @@
+2025-07-08 15:51:26.693 +12:00 [INF] 🚀 启动测试
+2025-07-08 15:51:26.737 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 15:51:29.690 +12:00 [INF] Entered username
+2025-07-08 15:51:29.925 +12:00 [INF] Entered password
+2025-07-08 15:51:30.067 +12:00 [INF] Submitted login form
+2025-07-08 15:51:30.594 +12:00 [INF] Check username and password
+2025-07-08 15:51:30.623 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 15:51:30.644 +12:00 [INF] Login success message verified.
+2025-07-08 15:51:30.649 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 15:51:30.881 +12:00 [INF] Entered username
+2025-07-08 15:51:30.948 +12:00 [INF] Entered password
+2025-07-08 15:51:31.010 +12:00 [INF] Submitted login form
+2025-07-08 15:51:31.500 +12:00 [INF] Check username and password
+2025-07-08 15:51:31.516 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 15:51:31.516 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 15:51:35.081 +12:00 [INF] 🧹 Test finished
+2025-07-08 16:53:23.971 +12:00 [INF] 🚀 启动测试
+2025-07-08 16:53:24.030 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 16:53:26.924 +12:00 [INF] Entered username
+2025-07-08 16:53:27.091 +12:00 [ERR] ElementNotFound
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=138.0.7204.50); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumLoginTest.Pages.LoginPage.get_UsernameInput() in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Pages/LoginPage.cs:line 22
+   at SeleniumLoginTest.Pages.LoginPage.EnterUsername(String username) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Pages/LoginPage.cs:line 30
+   at SeleniumLoginTest.LoginTests.TestSuccessfulLogin(LoginTestData data) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 170
+2025-07-08 16:53:27.124 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 16:53:27.371 +12:00 [INF] Entered username
+2025-07-08 16:53:27.543 +12:00 [ERR] ElementNotFound
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=138.0.7204.50); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumLoginTest.Pages.LoginPage.get_UsernameInput() in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Pages/LoginPage.cs:line 22
+   at SeleniumLoginTest.Pages.LoginPage.EnterUsername(String username) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Pages/LoginPage.cs:line 30
+   at SeleniumLoginTest.LoginTests.TestSuccessfulLogin(LoginTestData data) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 170
+2025-07-08 16:53:27.708 +12:00 [INF] WebDriver closed successfully.
+2025-07-08 16:53:31.448 +12:00 [INF] 🧹 Test finished
+2025-07-08 16:55:15.538 +12:00 [INF] 🚀 启动测试
+2025-07-08 16:55:17.959 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 16:55:20.882 +12:00 [INF] Entered username
+2025-07-08 16:55:21.042 +12:00 [ERR] ElementNotFound
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=138.0.7204.50); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumLoginTest.Pages.LoginPage.get_UsernameInput() in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Pages/LoginPage.cs:line 22
+   at SeleniumLoginTest.Pages.LoginPage.EnterUsername(String username) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Pages/LoginPage.cs:line 30
+   at SeleniumLoginTest.LoginTests.TestSuccessfulLogin(LoginTestData data) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 171
+2025-07-08 16:55:21.071 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 16:55:21.316 +12:00 [INF] Entered username
+2025-07-08 16:55:21.440 +12:00 [ERR] ElementNotFound
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=138.0.7204.50); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__6_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumLoginTest.Pages.LoginPage.get_UsernameInput() in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Pages/LoginPage.cs:line 22
+   at SeleniumLoginTest.Pages.LoginPage.EnterUsername(String username) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Pages/LoginPage.cs:line 30
+   at SeleniumLoginTest.LoginTests.TestSuccessfulLogin(LoginTestData data) in /Users/ethan/Desktop/Bootcamp/Test/SeleniumLoginTest/Tests/LoginTests.cs:line 171
+2025-07-08 16:55:21.566 +12:00 [INF] WebDriver closed successfully.
+2025-07-08 16:55:25.135 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:00:58.247 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:00:58.307 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:01:01.530 +12:00 [INF] Entered username
+2025-07-08 17:01:01.878 +12:00 [INF] Entered password
+2025-07-08 17:01:01.993 +12:00 [INF] Submitted login form
+2025-07-08 17:01:02.096 +12:00 [INF] Check username and password
+2025-07-08 17:01:02.594 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:01:02.684 +12:00 [INF] Login success message verified.
+2025-07-08 17:01:02.691 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:01:02.932 +12:00 [INF] Entered username
+2025-07-08 17:01:03.071 +12:00 [INF] Entered password
+2025-07-08 17:01:03.180 +12:00 [INF] Submitted login form
+2025-07-08 17:01:03.276 +12:00 [INF] Check username and password
+2025-07-08 17:01:03.742 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:01:03.742 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:01:07.776 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:01:38.829 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:01:38.881 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:01:41.611 +12:00 [INF] Entered username
+2025-07-08 17:01:41.794 +12:00 [INF] Entered password
+2025-07-08 17:01:41.974 +12:00 [INF] Submitted login form
+2025-07-08 17:01:42.486 +12:00 [INF] Check username and password
+2025-07-08 17:01:42.514 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:01:42.532 +12:00 [INF] Login success message verified.
+2025-07-08 17:01:42.536 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:01:42.774 +12:00 [INF] Entered username
+2025-07-08 17:01:42.837 +12:00 [INF] Entered password
+2025-07-08 17:01:42.905 +12:00 [INF] Submitted login form
+2025-07-08 17:01:43.398 +12:00 [INF] Check username and password
+2025-07-08 17:01:43.415 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:01:43.415 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:01:46.971 +12:00 [INF] 🧹 Test finished

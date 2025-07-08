@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-  workflow_dispatch:  # 手动触发
+  workflow_dispatch:
 
 jobs:
   build-and-test:
@@ -18,7 +18,29 @@ jobs:
       - name: 🧰 安装 .NET SDK
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '9.0.x' # 可改成你项目用的版本
+          dotnet-version: '9.0.x'
+
+      - name: 🧩 安装 ChromeDriver 运行依赖
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnspr4 \
+            libnss3 \
+            libgconf-2-4 \
+            libatk1.0-0 \
+            libc6 \
+            libx11-xcb1 \
+            libxcomposite1 \
+            libxdamage1 \
+            libxrandr2 \
+            libgbm1 \
+            libasound2 \
+            libxshmfence1 \
+            libpangocairo-1.0-0 \
+            libgtk-3-0 \
+            fonts-liberation \
+            xdg-utils \
+            wget
 
       - name: 📦 还原依赖
         run: dotnet restore

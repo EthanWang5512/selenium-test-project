@@ -1,0 +1,288 @@
+2025-07-08 17:08:41.021 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:08:42.584 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:08:42.596 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:08:45.532 +12:00 [INF] Entered username
+2025-07-08 17:08:45.726 +12:00 [INF] Entered password
+2025-07-08 17:08:45.912 +12:00 [INF] Submitted login form
+2025-07-08 17:08:46.424 +12:00 [INF] Check username and password
+2025-07-08 17:08:46.450 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:08:46.468 +12:00 [INF] Login success message verified.
+2025-07-08 17:08:46.472 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:08:46.708 +12:00 [INF] Entered username
+2025-07-08 17:08:46.774 +12:00 [INF] Entered password
+2025-07-08 17:08:46.840 +12:00 [INF] Submitted login form
+2025-07-08 17:08:47.327 +12:00 [INF] Check username and password
+2025-07-08 17:08:47.342 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:08:47.342 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:08:51.260 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:12:56.233 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:13:20.713 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:13:48.255 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:13:51.153 +12:00 [INF] Entered username
+2025-07-08 17:13:51.381 +12:00 [INF] Entered password
+2025-07-08 17:13:51.606 +12:00 [INF] Submitted login form
+2025-07-08 17:13:51.722 +12:00 [INF] Check username and password
+2025-07-08 17:13:52.282 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:13:52.361 +12:00 [INF] Login success message verified.
+2025-07-08 17:13:52.366 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:13:52.612 +12:00 [INF] Entered username
+2025-07-08 17:13:52.701 +12:00 [INF] Entered password
+2025-07-08 17:13:52.791 +12:00 [INF] Submitted login form
+2025-07-08 17:13:53.310 +12:00 [INF] Check username and password
+2025-07-08 17:13:53.329 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:13:53.329 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:14:00.600 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:17:39.240 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:17:41.950 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:17:41.961 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:17:44.874 +12:00 [INF] Entered username
+2025-07-08 17:17:45.063 +12:00 [INF] Entered password
+2025-07-08 17:17:45.260 +12:00 [INF] Submitted login form
+2025-07-08 17:17:45.801 +12:00 [INF] Check username and password
+2025-07-08 17:17:45.833 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:17:45.853 +12:00 [INF] Login success message verified.
+2025-07-08 17:17:45.857 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:17:46.105 +12:00 [INF] Entered username
+2025-07-08 17:17:46.198 +12:00 [INF] Entered password
+2025-07-08 17:17:46.299 +12:00 [INF] Submitted login form
+2025-07-08 17:17:46.379 +12:00 [INF] Check username and password
+2025-07-08 17:17:46.835 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:17:46.835 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:17:50.456 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:20:56.165 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:20:57.587 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:20:57.598 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:21:00.508 +12:00 [INF] Entered username
+2025-07-08 17:21:00.697 +12:00 [INF] Entered password
+2025-07-08 17:21:00.916 +12:00 [INF] Submitted login form
+2025-07-08 17:21:01.437 +12:00 [INF] Check username and password
+2025-07-08 17:21:01.464 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:21:01.481 +12:00 [INF] Login success message verified.
+2025-07-08 17:21:01.485 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:21:01.721 +12:00 [INF] Entered username
+2025-07-08 17:21:01.796 +12:00 [INF] Entered password
+2025-07-08 17:21:01.869 +12:00 [INF] Submitted login form
+2025-07-08 17:21:02.362 +12:00 [INF] Check username and password
+2025-07-08 17:21:02.378 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:21:02.378 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:21:06.250 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:22:44.272 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:22:45.892 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:22:45.903 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:22:48.812 +12:00 [INF] Entered username
+2025-07-08 17:22:48.997 +12:00 [INF] Entered password
+2025-07-08 17:22:49.190 +12:00 [INF] Submitted login form
+2025-07-08 17:22:49.699 +12:00 [INF] Check username and password
+2025-07-08 17:22:49.725 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:22:49.740 +12:00 [INF] Login success message verified.
+2025-07-08 17:22:49.743 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:22:49.979 +12:00 [INF] Entered username
+2025-07-08 17:22:50.046 +12:00 [INF] Entered password
+2025-07-08 17:22:50.113 +12:00 [INF] Submitted login form
+2025-07-08 17:22:50.156 +12:00 [INF] Check username and password
+2025-07-08 17:22:51.125 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:22:51.125 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:22:54.491 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:23:28.718 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:23:30.229 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:23:30.239 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:23:32.954 +12:00 [INF] Entered username
+2025-07-08 17:23:33.132 +12:00 [INF] Entered password
+2025-07-08 17:23:33.391 +12:00 [INF] Submitted login form
+2025-07-08 17:23:33.454 +12:00 [INF] Check username and password
+2025-07-08 17:23:33.932 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:23:33.948 +12:00 [INF] Login success message verified.
+2025-07-08 17:23:33.952 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:23:34.187 +12:00 [INF] Entered username
+2025-07-08 17:23:34.254 +12:00 [INF] Entered password
+2025-07-08 17:23:34.322 +12:00 [INF] Submitted login form
+2025-07-08 17:23:34.370 +12:00 [INF] Check username and password
+2025-07-08 17:23:34.832 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:23:34.832 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:23:38.390 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:24:21.491 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:24:22.767 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:24:22.777 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:24:26.035 +12:00 [INF] Entered username
+2025-07-08 17:24:26.221 +12:00 [INF] Entered password
+2025-07-08 17:24:26.396 +12:00 [INF] Submitted login form
+2025-07-08 17:24:26.454 +12:00 [INF] Check username and password
+2025-07-08 17:24:26.936 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:24:26.953 +12:00 [INF] Login success message verified.
+2025-07-08 17:24:26.958 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:24:27.194 +12:00 [INF] Entered username
+2025-07-08 17:24:27.255 +12:00 [INF] Entered password
+2025-07-08 17:24:27.325 +12:00 [INF] Submitted login form
+2025-07-08 17:24:27.374 +12:00 [INF] Check username and password
+2025-07-08 17:24:27.827 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:24:27.827 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:24:31.453 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:26:19.955 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:26:21.374 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:26:21.388 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:26:24.254 +12:00 [INF] Entered username
+2025-07-08 17:26:24.437 +12:00 [INF] Entered password
+2025-07-08 17:26:24.614 +12:00 [INF] Submitted login form
+2025-07-08 17:26:24.681 +12:00 [INF] Check username and password
+2025-07-08 17:26:25.157 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:26:25.173 +12:00 [INF] Login success message verified.
+2025-07-08 17:26:25.177 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:26:25.415 +12:00 [INF] Entered username
+2025-07-08 17:26:25.483 +12:00 [INF] Entered password
+2025-07-08 17:26:25.548 +12:00 [INF] Submitted login form
+2025-07-08 17:26:25.593 +12:00 [INF] Check username and password
+2025-07-08 17:26:26.118 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:26:26.118 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:26:29.757 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:28:00.784 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:28:02.236 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:28:02.236 +12:00 [INF] Entered username
+2025-07-08 17:28:02.236 +12:00 [INF] Entered password
+2025-07-08 17:28:02.236 +12:00 [INF] Submitted login form
+2025-07-08 17:28:02.236 +12:00 [INF] Check username and password
+2025-07-08 17:28:02.253 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:28:02.253 +12:00 [INF] Entered username
+2025-07-08 17:28:02.253 +12:00 [INF] Entered password
+2025-07-08 17:28:02.253 +12:00 [INF] Submitted login form
+2025-07-08 17:28:02.253 +12:00 [INF] Check username and password
+2025-07-08 17:28:13.138 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:28:14.345 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:28:17.251 +12:00 [INF] Entered username
+2025-07-08 17:28:17.438 +12:00 [INF] Entered password
+2025-07-08 17:28:17.609 +12:00 [INF] Submitted login form
+2025-07-08 17:28:18.118 +12:00 [INF] Check username and password
+2025-07-08 17:28:18.146 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:28:18.164 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:28:18.403 +12:00 [INF] Entered username
+2025-07-08 17:28:18.467 +12:00 [INF] Entered password
+2025-07-08 17:28:18.532 +12:00 [INF] Submitted login form
+2025-07-08 17:28:18.575 +12:00 [INF] Check username and password
+2025-07-08 17:28:19.032 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:28:55.344 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:28:56.619 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:28:59.347 +12:00 [INF] Entered username
+2025-07-08 17:28:59.530 +12:00 [INF] Entered password
+2025-07-08 17:28:59.708 +12:00 [INF] Submitted login form
+2025-07-08 17:28:59.773 +12:00 [INF] Check username and password
+2025-07-08 17:29:00.251 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:29:00.269 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:29:00.506 +12:00 [INF] Entered username
+2025-07-08 17:29:00.571 +12:00 [INF] Entered password
+2025-07-08 17:29:00.638 +12:00 [INF] Submitted login form
+2025-07-08 17:29:00.687 +12:00 [INF] Check username and password
+2025-07-08 17:29:01.216 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:30:32.424 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:30:33.939 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:30:33.953 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:30:36.854 +12:00 [INF] Entered username
+2025-07-08 17:30:37.038 +12:00 [INF] Entered password
+2025-07-08 17:30:37.220 +12:00 [INF] Submitted login form
+2025-07-08 17:30:37.735 +12:00 [INF] Check username and password
+2025-07-08 17:30:37.764 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:30:37.781 +12:00 [INF] Login success message verified.
+2025-07-08 17:30:37.785 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:30:38.026 +12:00 [INF] Entered username
+2025-07-08 17:30:38.091 +12:00 [INF] Entered password
+2025-07-08 17:30:38.157 +12:00 [INF] Submitted login form
+2025-07-08 17:30:38.203 +12:00 [INF] Check username and password
+2025-07-08 17:30:38.654 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:30:38.655 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:30:42.288 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:31:46.986 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:31:48.509 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:31:48.518 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:31:51.440 +12:00 [INF] Entered username
+2025-07-08 17:31:51.650 +12:00 [INF] Entered password
+2025-07-08 17:31:51.858 +12:00 [INF] Submitted login form
+2025-07-08 17:31:52.396 +12:00 [INF] Check username and password
+2025-07-08 17:31:52.431 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:31:52.451 +12:00 [INF] Login success message verified.
+2025-07-08 17:31:52.455 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:31:52.754 +12:00 [INF] Entered username
+2025-07-08 17:31:52.863 +12:00 [INF] Entered password
+2025-07-08 17:31:52.946 +12:00 [INF] Submitted login form
+2025-07-08 17:31:53.022 +12:00 [INF] Check username and password
+2025-07-08 17:31:53.487 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:31:53.488 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:31:57.737 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:36:00.164 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:36:01.575 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:36:01.589 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:36:04.516 +12:00 [INF] Entered username
+2025-07-08 17:36:04.703 +12:00 [INF] Entered password
+2025-07-08 17:36:04.913 +12:00 [INF] Submitted login form
+2025-07-08 17:36:04.974 +12:00 [INF] Check username and password
+2025-07-08 17:36:05.443 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:36:05.461 +12:00 [INF] Login success message verified.
+2025-07-08 17:36:05.466 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:36:05.702 +12:00 [INF] Entered username
+2025-07-08 17:36:05.775 +12:00 [INF] Entered password
+2025-07-08 17:36:05.846 +12:00 [INF] Submitted login form
+2025-07-08 17:36:05.892 +12:00 [INF] Check username and password
+2025-07-08 17:36:06.854 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:36:06.854 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:36:10.335 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:39:16.229 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:39:17.759 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:39:17.770 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:39:20.678 +12:00 [INF] Entered username
+2025-07-08 17:39:20.874 +12:00 [INF] Entered password
+2025-07-08 17:39:21.023 +12:00 [INF] Submitted login form
+2025-07-08 17:39:21.534 +12:00 [INF] Check username and password
+2025-07-08 17:39:21.561 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:39:21.577 +12:00 [INF] Login success message verified.
+2025-07-08 17:39:21.582 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:39:21.819 +12:00 [INF] Entered username
+2025-07-08 17:39:21.888 +12:00 [INF] Entered password
+2025-07-08 17:39:21.958 +12:00 [INF] Submitted login form
+2025-07-08 17:39:22.007 +12:00 [INF] Check username and password
+2025-07-08 17:39:22.469 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:39:22.469 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:39:26.058 +12:00 [INF] 🧹 Test finished
+2025-07-08 17:40:13.893 +12:00 [INF] 🔥 Logger 初始化完成
+2025-07-08 17:40:51.965 +12:00 [INF] 🚀 启动测试
+2025-07-08 17:42:06.806 +12:00 [INF] TestSuccessfulLogin - tomsmith
+2025-07-08 17:42:09.691 +12:00 [INF] Entered username
+2025-07-08 17:42:09.915 +12:00 [INF] Entered password
+2025-07-08 17:42:10.124 +12:00 [INF] Submitted login form
+2025-07-08 17:42:10.644 +12:00 [INF] Check username and password
+2025-07-08 17:42:10.675 +12:00 [INF] 页面提示信息：You logged into a secure area!
+×
+2025-07-08 17:42:10.741 +12:00 [INF] Login success message verified.
+2025-07-08 17:42:10.748 +12:00 [INF] TestSuccessfulLogin - admin
+2025-07-08 17:42:10.984 +12:00 [INF] Entered username
+2025-07-08 17:42:11.090 +12:00 [INF] Entered password
+2025-07-08 17:42:11.158 +12:00 [INF] Submitted login form
+2025-07-08 17:42:11.647 +12:00 [INF] Check username and password
+2025-07-08 17:42:11.661 +12:00 [INF] 页面提示信息：Your username is invalid!
+×
+2025-07-08 17:42:11.662 +12:00 [INF] 登录失败提示验证通过
+2025-07-08 17:42:18.548 +12:00 [INF] 🧹 Test finished
