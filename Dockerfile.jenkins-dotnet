@@ -11,30 +11,14 @@ RUN apt-get update && \
     apt-get install -y dotnet-sdk-9.0
     
 # 安装依赖
-RUN apt-get update && apt-get install -y wget curl gnupg unzip
+RUN apt-get update && apt-get install -y wget curl gnupg2 apt-transport-https unzip
 
-# 添加 Google Chrome 的官方 GPG key 和 repo
-RUN curl -fsSL https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor -o /usr/share/keyrings/google.gpg && \
-    echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google.gpg] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list
+# 添加 Chrome 仓库
+RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - && \
+    echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list
 
-# 安装最新版 Google Chrome
-RUN curl -fsSL https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor -o /usr/share/keyrings/google.gpg && \
-    echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google.gpg] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list && \
-    apt-get update && \
-    apt-get install -y google-chrome-stable
-    
-# 自动获取 Chrome 对应版本的 ChromeDriver
-RUN CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+') && \
-    CHROMEDRIVER_VERSION=$(curl -sS "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json" \
-        | grep -A20 "\"version\": \"$CHROME_VERSION\"" \
-        | grep "linux64" \
-        | grep "chromedriver" \
-        | grep -oP 'https[^"]+') && \
-    wget -O /tmp/chromedriver.zip "$CHROMEDRIVER_VERSION" && \
-    unzip /tmp/chromedriver.zip -d /usr/local/bin && \
-    chmod +x /usr/local/bin/chromedriver && \
-    rm /tmp/chromedriver.zip
-
+# 安装 Google Chrome 稳定版
+RUN apt-get update && apt-get install -y google-chrome-stable
 
 
 
