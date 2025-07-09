@@ -20,13 +20,15 @@ RUN curl -fsSL https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor
 # 安装最新版 Google Chrome（自动从 Google 获取）
 RUN apt-get update && apt-get install -y google-chrome-stable
 
-# 获取对应版本的 ChromeDriver（仅取前两段）
-RUN CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+') && \
-    CHROMEDRIVER_VERSION=$(curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION}) && \
+# 获取 ChromeDriver，手动解析 major.minor
+RUN CHROME_FULL_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+') && \
+    CHROME_MAJOR_MINOR=$(echo $CHROME_FULL_VERSION | cut -d '.' -f 1,2) && \
+    CHROMEDRIVER_VERSION=$(curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_MAJOR_MINOR}) && \
     wget -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip && \
     unzip /tmp/chromedriver.zip -d /usr/local/bin && \
     chmod +x /usr/local/bin/chromedriver && \
     rm /tmp/chromedriver.zip
+
 
 
 
