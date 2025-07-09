@@ -167,7 +167,7 @@ namespace SeleniumLoginTest.Tests
    
    #### 建议学习内容：
    
-   * **依赖注入**（如 .NET 的 `Microsoft.Extensions.DependencyInjection`）
+   * **依赖注入**（如 .NET 的 `Microsoft.Extensions.DependencyInjection`）  ✅
    * **配置管理**（如 appsettings.json + `IConfiguration`）
    * **日志记录**（如 `Serilog`）
    
@@ -181,7 +181,7 @@ namespace SeleniumLoginTest.Tests
    
    #### 建议学习内容：
    
-   * **GitHub Actions / GitLab CI / Azure DevOps / Jenkins**
+   * **GitHub Actions / GitLab CI / Azure DevOps / Jenkins**    
    * 将你的 Selenium 测试集成到 CI 流程中
    * 在 CI 中运行测试并生成报告（HTML + Screenshot）
    
